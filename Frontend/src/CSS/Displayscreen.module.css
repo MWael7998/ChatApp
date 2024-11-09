@@ -1,0 +1,19 @@
+.displayscreen{
+    width:100%;
+    height:100%;
+    background-color:white;
+    padding:20px;
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+    overflow-y:scroll;
+}
+.displayscreen::-webkit-scrollbar{
+    width:4px;
+    background:rgb(179, 179, 179);
+}
+.displayscreen::-webkit-scrollbar-thumb{
+    background:rgb(65, 65, 65);
+    width:2px;
+}

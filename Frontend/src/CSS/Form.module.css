@@ -1,0 +1,93 @@
+.input_container{
+    display:flex;
+    justify-content: start;
+    flex-wrap:wrap;
+    align-items:center;
+    width:100%;
+    position:relative;
+    gap:2px;
+}
+.input_title{
+    flex:100% 1 1;
+    position:relative;
+    color:black;
+    font-weight:bolder;
+    padding-left:5px;
+}
+.input_value{
+    flex:100% 1 1;
+    padding:5px;
+    border-radius:3px;
+    border:solid 1px rgb(201, 201, 201);
+    outline:solid 1px transparent;
+    transition:.3s ease-in-out;
+}
+.input_value:focus-visible{
+    border:solid 1px rgb(126, 126, 126);
+}
+.input_action{
+    border:none;
+    outline:none;
+    padding:10px;
+    cursor:pointer;
+    background:none;
+    color:black;
+    transition:background .3s ease-in-out;
+}
+
+.input_error{
+    border:solid 1px var(--primary-clr-hover);
+}
+.input_error:focus-visible{
+    border:solid 1px var(--primary-clr);
+}
+
+.input_success{
+    border:solid 1px var(--secondary-clr-hover);
+}
+.input_success:focus-visible{
+    border:solid 1px var(--secondary-clr);
+}
+
+
+.input_block{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:5px;
+}
+.input_cube{
+    flex:100% 1 1;
+    padding-left:10px;
+    align-items:center;
+    justify-content: center;
+}
+.zero_padding{
+    padding:0;
+    accent-color: var(--secondary-clr);
+}
+.zero_padding:hover{
+    padding:0;
+    accent-color:var(--secondary-clr-hover);
+}
+[disabled]{
+    background:rgb(233, 233, 233);
+}
+button[disabled=true]{
+    background:rgb(233,233,233);
+}
+.join_btn{
+    background:var(--primary-clr);
+    color:white;
+}
+.join_btn:hover{
+    background:var(--primary-clr-hover);
+}
+.create_btn{
+    background:var(--secondary-clr);
+    color:white;
+}
+.create_btn:hover{
+    background:var(--secondary-clr-hover);
+}

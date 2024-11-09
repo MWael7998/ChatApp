@@ -1,0 +1,45 @@
+.container{
+    width:400px;
+    display:flex;
+    flex-wrap:wrap;
+    border-radius:6px;
+}
+.container_actions{
+    flex:100% 1 1;
+    display:flex;
+}
+.container_button{
+    flex:100% 1 1 ;
+    all:none;
+    padding:20px;
+    color:black;
+    border:none;
+    cursor:pointer;
+    background:none;
+    font-size:.9em;
+    font-weight:bolder;
+    transition:background .3s ease-in-out;
+}
+.container_inputs{
+    width:100%;
+    padding:20px;
+    display:grid;
+    place-items:center;
+    gap:15px;
+}
+.btn_join{
+    color:white;
+    background:var(--primary-clr);
+}
+.btn_create{
+    color:white;
+    background:var(--secondary-clr);
+}
+.join_shadow{
+    border:solid 1px var(--primary-clr);
+    box-shadow:0 0 2px var(--primary-clr);
+}
+.create_shadow{
+    border:solid 1px var(--secondary-clr);
+    box-shadow:0 0 2px var(--secondary-clr);
+}

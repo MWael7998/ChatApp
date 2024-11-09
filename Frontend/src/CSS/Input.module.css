@@ -1,0 +1,13 @@
+.textarea{
+    flex:100% 1 1;
+    padding:12px;
+    resize: none;
+    border-radius:5px;
+    height:100%;
+    outline:solid 1px transparent;
+    transition:.3s ease-in-out;
+}
+.textarea:focus-visible{
+    border:none;
+    outline:solid 1px rgb(0, 174, 187);
+}

@@ -1,0 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+:root{
+    --primary-clr:rgb(241, 169, 169);
+    --secondary-clr:rgb(162, 217, 181);
+    --primary-clr-hover:rgb(255, 142, 132);
+    --secondary-clr-hover:rgb(103, 214, 142);
+}
